@@ -1,0 +1,45 @@
+
+body {
+    
+    font-family: Roboto;
+    
+    font-size: 16px;
+    background-color: cadetblue;
+    
+}
+header {
+    max-width: 640px;
+    margin: 1rem auto;
+    
+    padding: .5em;
+    font-size: 20px;
+    background-color: blueviolet;
+    
+}
+main {
+    max-width: 640px;
+    margin: 1rem auto;
+    border-color:aqua;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4px;
+    border-color: lightskyblue;
+    
+}
+section {
+    max-width: 100%;
+    background-color: white;
+    padding: 1em;
+    border: 1px darkblue;
+}
+
+
+footer {
+    max-width: 640px;
+    font-size: 20px;
+    border:1px lightblue;
+    padding: 1em;
+    margin: 1rem auto;
+    background-color: lightskyblue;
+}
