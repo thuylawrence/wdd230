@@ -1,0 +1,15 @@
+@media only screen and (max-width: 700px) {
+    main {
+        display: block;
+        height: auto;
+    }
+    nav {
+        flex-direction: row-reverse;
+        justify-content: right;
+        gap: 3rem;
+    }
+    nav div {
+        display: block;
+        padding: 15px
+    }
+}
