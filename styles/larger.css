@@ -1,15 +1,50 @@
-@media only screen and (max-width: 700px) {
-    main {
+@media screen and (min-width: 52rem) {
+    /* main {
         display: block;
         height: auto;
-    }
+        flex-direction: row-reverse;
+        gap: 3rem;
+    } */
     nav {
         flex-direction: row-reverse;
         justify-content: right;
         gap: 3rem;
+        
     }
     nav div {
         display: block;
-        padding: 15px
+        padding: 15px;
+        flex-direction: row-reverse;
+    }
+    main {
+        max-width: 640px;
+        display: grid;
+        margin: auto;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        /* border: 15px black; */
+    }
+    .card1 {
+        grid-column: 1/2;
+        grid-row: 2/4;
+        padding: 1em;
+        font-size: 20px;
+        background-color:#83D1D8;
+    }
+    .card2 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding: 1em;
+        font-size: 20px;
+        background-color: #83D1D8;
+    }
+    
+    .card3 {
+        grid-column:2/3;
+        grid-row: 3/4;
+        padding: 1em;
+        font-size: 20px;
+        background-color:#83D1D8;
     }
 }
+    
