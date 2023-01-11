@@ -6,7 +6,7 @@
         gap: 3rem;
     } */
     nav {
-        flex-direction: row;
+        flex-direction: row-reverse;
         justify-content: right;
         gap: 3rem;
         
