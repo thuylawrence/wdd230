@@ -1,4 +1,4 @@
-@media screen and (min-width: 52rem) {
+@media only screen and (min-width: 40rem) {
     /* main {
         display: block;
         height: auto;
@@ -6,16 +6,12 @@
         gap: 3rem;
     } */
     nav {
-        flex-direction: row-reverse;
+        flex-direction: row;
         justify-content: right;
         gap: 3rem;
         
     }
-    nav div {
-        display: block;
-        padding: 15px;
-        flex-direction: row-reverse;
-    }
+    
     main {
         max-width: 640px;
         display: grid;
