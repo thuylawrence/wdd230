@@ -69,3 +69,6 @@ main {
     gap: 3rem;
 }
 
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+}
