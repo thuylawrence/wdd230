@@ -5,11 +5,23 @@
         flex-direction: row-reverse;
         gap: 3rem;
     } */
+    /* header {
+        grid-template-columns: auto auto;
+    } */
+    header button {
+        display: none;
+    }
     nav ul {
-        flex-direction: column;
-        justify-content: right;
+        display: flex;
+        
+        justify-content: flex-end;
         gap: 3rem;
         
+    }
+    
+    nav {
+        position: initial;
+        display: block;
     }
     
     main {
