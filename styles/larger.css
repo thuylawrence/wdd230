@@ -5,8 +5,8 @@
         flex-direction: row-reverse;
         gap: 3rem;
     } */
-    nav {
-        flex-direction: row-reverse;
+    nav ul {
+        flex-direction: column;
         justify-content: right;
         gap: 3rem;
         

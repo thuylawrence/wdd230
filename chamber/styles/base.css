@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Playfair+Display:ital@1&display=swap');
+.logo {
+    width: 100px;
+    padding: 5px;
+    justify-self: center;
+}
+.mainnav {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    text-align: center;
+    
+}
+.menu {
+    list-style-type: none;
+    align-content: right;
+    padding: 1rem;
+    
+}
+.content menu{
+    align-items: right;
+    justify-content: right;
+}
+header {
+    display: grid;
+    grid-template-columns: 100px auto;
+    background-color: lightblue;
+    
+}
+/* .hero-box {
+    max-width: 100%;
+}
+#hero-img {
+    max-width: 100%;
+} */
+#hero-msg {
+    text-align: center;
+    color: blue;
+}
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px;
+}
+.event {
+    grid-column: 1/3 ;
+    grid-row: 1/2;
+}
+.weather {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+footer {
+    display: flex;
+    gap: 1rem;
+    padding: .5rem;
+}
+p {
+    text-align: center;
+    margin: auto;
+}
