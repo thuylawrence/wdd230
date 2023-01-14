@@ -1,3 +1,18 @@
 @media only screen and (min-width: 40rem) {
-    
+    nav ul {
+        flex-direction: column;
+        justify-content: right;
+        gap: 3rem;
+        
+    }
+    main {
+        max-width: 640px;
+        display: grid;
+        margin: auto;
+    }
+    footer {
+        flex-direction: row;
+        gap: 1rem;
+    }
+  
 }

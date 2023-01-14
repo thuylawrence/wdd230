@@ -9,7 +9,7 @@
     flex-direction: row;
     gap: 8px;
     text-align: center;
-    
+    align-content: right;
 }
 .menu {
     list-style-type: none;
@@ -27,12 +27,13 @@ header {
     background-color: lightblue;
     
 }
-/* .hero-box {
+ .hero{
     max-width: 100%;
 }
 #hero-img {
-    max-width: 100%;
-} */
+    width: 100%;
+    
+} 
 #hero-msg {
     text-align: center;
     color: blue;
@@ -58,4 +59,7 @@ footer {
 p {
     text-align: center;
     margin: auto;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
 }
