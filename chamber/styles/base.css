@@ -3,6 +3,14 @@
     width: 100px;
     padding: 5px;
     justify-self: center;
+    float: left;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
 }
 .mainnav {
     display: flex;
@@ -17,16 +25,17 @@
     padding: 1rem;
     
 }
+
 .content menu{
     align-items: right;
     justify-content: right;
 }
-header {
+/* header {
     display: grid;
     grid-template-columns: 100px auto;
     background-color: lightblue;
     
-}
+} */
  .hero{
     max-width: 100%;
 }
@@ -52,9 +61,11 @@ header {
     grid-row: 1/2;
 }
 footer {
-    display: flex;
+    /* display: flex; */
+    flex-direction: column;
     gap: 1rem;
     padding: .5rem;
+    margin-top: 1rem;
 }
 p {
     text-align: center;
@@ -62,4 +73,11 @@ p {
 }
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+main section {
+    background-color: grey;
+    margin: 5px;
+    padding: .5rem;
+    text-align: center;
+    
 }
