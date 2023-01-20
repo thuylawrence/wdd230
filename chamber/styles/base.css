@@ -17,17 +17,17 @@ nav {
     flex-direction: row;
     gap: 8px;
     text-align: center;
-    align-content: right;
+    
 }
 .menu {
     list-style-type: none;
-    align-content: right;
+    
     padding: 1rem;
     
 }
 
 .content menu{
-    align-items: right;
+    
     justify-content: right;
 }
 /* header {
