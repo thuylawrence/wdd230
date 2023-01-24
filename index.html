@@ -39,8 +39,9 @@
     <main>
         <div class="heroimage">
             <picture>
-                <img srcset="images/bountiful_temple_lds.webp" src="week03/images/bountiful_temple_lds.webp" alt="favtemple" loading="lazy" width="400px">
-            
+                <source srcset="chamber/images/bountiful_temple_lds (1).webp" media="max-width: 500px)">
+                <source srcset="chamber/images/960pxtemple.webp" media="max-width: 1000px)">
+                <img src="chamber/images/bountiful_temple_lds.webp" alt="hero image" width="1000" height="400">
             </picture> 
         </div>
         <div class="herolabel">
@@ -65,13 +66,17 @@
         </section>
         <section class="card2">
             <h3> Project </h3>
-            <a href="week01/chamber-site-plan.html">Chamber Site Plan file |</a>
+            <a href="chamber/styles/chamber-site-plan.html">Chamber Site Plan file |</a>
             <a href="chamber/index.html"> Hanoi Chamber of Commerce </a>
         </section>
         <section class="card3">
             <h3> Information </h3>
-
+            <p> <span class="label"> Number of Visits: </span><span class="visits"></span></p>
+            
+        
         </section>
+        
+        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=450&amp;hl=en&amp;q=Hanoi&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.gachacute.com/">Gacha Cute</a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:450px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:450px;}.gmap_iframe {width:600px!important;height:450px!important;}</style></div>
     </main>
 
 
@@ -82,6 +87,7 @@
     </footer>
     <script src="scripts/getDates.js"> </script>
     <script src="scripts/hamIcon.js"> </script>
+    <script src="../chamber/scripts/chamber.js"></script>
 
 </body>
 

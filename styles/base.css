@@ -89,8 +89,25 @@ main {
     grid-template-columns: 1fr;
     flex-direction: row-reverse;
     gap: 3rem;
+    max-width: 1060px;
 }
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+}
+.heroimage {
+    width: 100%;
+    margin: auto;
+}
+.main picture img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius:  5px;
+}
+.mapouter {
+    align-items: center;
+    margin: auto;
+    width: 100%;
 }
