@@ -87,9 +87,10 @@ main {
     display: block;
     height: auto;
     grid-template-columns: 1fr;
-    flex-direction: row-reverse;
+    /*flex-direction: row-reverse;*/
     gap: 3rem;
     max-width: 1060px;
+    margin: 0 auto;
 }
 
 body {
@@ -98,16 +99,39 @@ body {
 .heroimage {
     width: 100%;
     margin: auto;
+    display: grid;
+    
+
 }
-.main picture img {
+main picture img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
     border-radius:  5px;
+    
+    
+}
+
+.herolabel {
+    position: absolute;
+    align-self: center;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    left: 200px;
+    margin-top: 5px;
+    color: purple;
+    padding: 1rem;
+    
+    
 }
 .mapouter {
     align-items: center;
     margin: auto;
     width: 100%;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
