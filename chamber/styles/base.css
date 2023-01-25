@@ -116,3 +116,7 @@ rgba(0,0,0,.75);
     font-size: 2rem;
     font-family: "Great Vibes",
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

@@ -135,3 +135,17 @@ main picture img {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
 }
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.sidebar, .photo1, .photo2 {
+    padding: 1rem;
+    gap: .5rem;
+    color: purple;
+    border: solid 2px black;
+    background-color: #83D1D8;
+    
+}
