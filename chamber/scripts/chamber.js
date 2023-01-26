@@ -30,29 +30,7 @@ localStorage.setItem("visits-ls", numVisits);
 // show todays date.
 // todayDisplay.textContent = Date.now();
 
-// You can view the localStorage data using the Applications panel in the browsers's DevTools.
-// const user1 = document.querySelector("#user1");
-// const user2 = document.querySelector("#user2")
-// const message = document.querySelector("#form")
-// user2.addEventListener("focusout", checkSame);
-// function checkSame() {
-//   if (user1.value !== user2.value) {
-//     message.textContent = "The username does not match!";
-//     message.getElementsByClassName.display = "block";
-//     user2.getElementsByClassName.backgroundcolor = "#aa3333";
-//     user2.getElementsByClassName.color = "#fff";
-//     user2.focus();
-//     user2.value = "";
-//   } else {
-//     // message.getElementsByClassName.display = "block";
-//     // user2.getElementsByClassName.backgroundcolor = "#fff";
-//     // user2.getElementsByClassName.color = "#000";
-//     message.textContent = "The username does match!";
-//     message.getElementsByClassName.display = "block";
-//     user2.getElementsByClassName.backgroundcolor = "#aa3333";
-//     user2.getElementsByClassName.color = "#fff";
-//     user2.focus();
-//     user2.value = "";
+
 document.getElementById("range").addEventListener("change", function(){
   popup("the range was changed to value " + this.value);
 });
