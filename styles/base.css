@@ -149,3 +149,38 @@ main picture img {
     background-color: #83D1D8;
     
 }
+:root {
+    --it-btn-color-primary:  #2F188C;
+    --it-btn-color-disabled:  #b2b9c7;
+    --button-size:  24px;
+}
+form {
+	display: grid;
+	grid-gap: 0.35rem;
+	grid-template-columns: 1fr;
+	width: 425px;
+	align-items: center;
+}
+input:focus,
+textarea:focus,
+select:focus {
+	background-color: #ddd;
+}
+#formtable {
+    display: grid;
+    grid-gap: .3rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border: 1px solid rgb(200,200,200);
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+
+}
+#formtable td {
+    padding-left: 10px;
+    background-color: black;
+    color: yellow;
+}
+
+

@@ -78,7 +78,16 @@
         </section>
         </div>
         <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=450&amp;hl=en&amp;q=Hanoi&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.gachacute.com/">Gacha Cute</a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:450px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:450px;}.gmap_iframe {width:600px!important;height:450px!important;}</style></div>
-        <
+    <form method="post" action="" id="form" >
+        <label class="top">Name: <input required type="text" id="name" name="name" placeholder="Your name"></label>
+        <label class="top">Email: <input required type="email" id="email" name="email" placeholder="Your email"></label>
+        <label class="top">Rating: <input type="range" name="rating" id="range" min="1" max="10" value="10"></label>
+        <label class="top">Username: <input required type="password" name="username" id="user1" placeholder="username" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,12}"></label>
+        <label class="top">Confirm Username:<input required type="password" name="username" id="user2" placeholder="confirm username"></label>
+        <input type="submit" value="Your Input">
+    </form>
+    <section id ="formtable"></section>
+
     </main>
 
 
