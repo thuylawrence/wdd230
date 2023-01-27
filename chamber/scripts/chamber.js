@@ -38,7 +38,7 @@ document.getElementById("form").addEventListener("submit", function(e){
   e.preventDefault();
 
   if(document.getElementById("user1").value != document.getElementById("user2").value){
-      popup("the usernames do not match");
+      alert("the usernames do not match");
       return;
   }
 
