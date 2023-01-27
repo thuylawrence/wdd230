@@ -12,15 +12,15 @@
     <meta name="description" content="WDD 230 - Thuy Duong Lawrence - Course Team Activity Portal">
     <title>WDD 230- Portal - Thuy Duong Lawrence</title>
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/larger.css">
     <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
 
     <header>
-        <img class="profile" src="images/profile.jpg" alt="Photo">
+        <img class="profile" src="../images/profile.jpg" alt="Photo">
         <h1> Thuy Duong Thi Lawrence </h1>
         <button>=</button>
         <nav class="open">
@@ -37,16 +37,41 @@
         
     </header>
     <main>
-        <form method="post" action="thanks.html">
-            <fieldset>
-                <legend>New Member Information</legend>
-                <label class="top">First Name*<input type="text" name="fname" required></label>
-                <label class="top">Last Name*<input type="text" name="lname" required></label>
-                <label class="top">Job Title<input type="text" name="title" ></label>
-                <label class="top">First Name*<input type="text" name="fname" required></label>
-                <label class="top">First Name*<input type="text" name="fname" required></label>
-            </fieldset>
+        <div class="form1">
+            <form action="thanks.html">
+                <fieldset>
+                    <legend>New Member Information</legend>
+                    <label class="top">First Name*<input type="text" name="fname" required></label>
+                    <label class="top">Last Name*<input type="text" name="lname" required></label>
+                    <label class="top">Job Title<input type="text" name="title" placeholder="Your title" pattern="^[A-Za-z\d\-\s]{7,}$" ></label>
+                    <label class="top">Email*<input type="email" name="Your email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Cell Phone*<input type="tel" name="phone" placeholder="1235551234"required></label>
+                    <label class="top">Business Name*<input type="text" name="business name" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <div>Your choice: </div>
+                    <label class="sbs"><input type="radio" name="choice" value="NP">NP Membership</label>
+                    <label class="sbs"><input type="radio" name="choice" value="bronze">Bronze Membership</label>
+                    <label class="sbs"><input type="radio" name="choice" value="silver">Silver Membership</label>
+                    <label class="sbs"><input type="radio" name="choice" value="gold">Gold Membership</label>
+                
+                </fieldset>
+                
+                <div class="description">
+                    <label class="top">Business Description<input type="text" > </label>
+                </div>
+                    <label class="bottom"><input type="hidden" id="date" name="date" value="CurrentTime"></label>
+                    <label class="bottom"><input type="hidden" id="time" name="time" value="CurrentDate"></label>
+            <input type="submit" value="Register" class="submitBtn">
         </form>
+        <div class="benefit">
+            <p>NP Membership is for non profit organizations and there is no fee. However, there will are limitations on which activities you can participate in. </p>
+            <p>Bronze Members will pay a fee of $100 per year. Bronze members will be invited to certain special events and will be able to advertise on the Chamber homepage once a month.</p>
+            <p>Silver Members will pay a fee of $175 per year. Silver Members will be able to attend certain special events along with training, and will be able to advertise on the Chamber homepage twice a month. </p>
+            <p>Gold Members will pay a fee of $250. Gold members will be able to attend all events and trainings. The Hanoi Chamber of Commerce homepage will permanent advertising spot for gold members. </p>
+            </div>
+    </div>
     </main>
 
 
@@ -55,8 +80,8 @@
 
         <p id="lastModified"></p>
     </footer>
-    <script src="scripts/getDates.js"> </script>
-    <script src="scripts/hamIcon.js"> </script>
+    <!-- <script src="../chamber/scripts/"> </script>
+    <script src="scripts/hamIcon.js"> </script> -->
     <script src="../chamber/scripts/chamber.js"></script>
 
 </body>

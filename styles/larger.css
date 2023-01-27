@@ -64,4 +64,9 @@
         grid-template-columns: 1fr 1fr 1fr;
     
     }
+    .form1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
 }
