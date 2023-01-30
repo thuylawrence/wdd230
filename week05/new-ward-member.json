@@ -1,0 +1,20 @@
+{
+    "familyName" : "Lawrence" ,
+    "movedIN" : "2022" ,
+    "numberRecord" : "2" ,
+    "visitedBishopric" : true,
+    "members" : [
+        {
+            "name" : "Elijah Lawrence",
+            "gender" : "Male",
+            "Birthdate": "02/18/1980"
+        },
+        {
+            "name" : "Thuy Lawrence",
+            "gender": "Female",
+            "birthDate": "10/18/1981"
+        
+        }
+    
+    ]
+}
