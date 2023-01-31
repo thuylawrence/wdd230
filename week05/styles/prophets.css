@@ -1,0 +1,33 @@
+#cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+#cards section {
+    background-color: lightskyblue;
+    grid-gap: .3rem;
+    padding: .5rem;
+     margin: 5px;
+}
+h1 {
+    text-align: center;
+    color: blue;
+}
+#cards p {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+img {
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 40rem) {
+    #cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
