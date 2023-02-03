@@ -1,0 +1,22 @@
+
+{ 
+    "week1" :["week01/holygrail.html",
+        "week01/media-query.html"],
+       
+    "week2" :["week02/design.html","https://codepen.io/thuylawrence/pen/WNKpKRR","week02/bom.html"],
+      
+    
+    "week3": ["https://codepen.io/thuylawrence/pen/LYBejGO","week03/week02/bom.html"],
+      
+    "week4": ["https://codepen.io/thuylawrence/pen/qByYXRb","week4/images/Screenshot 2023-01-26 at 10.46.52 AM.png", "week4/images/tablebuild.html","form-start/index.html"],
+     
+    "week5": ["https://codepen.io/thuylawrence/pen/KKBBRaZ","week05/new-ward-member.json","week05/prophets.html","week05/weather.html"],
+      
+    "week6": [],
+
+    
+    "week7": []
+
+    
+
+  }

@@ -107,10 +107,92 @@ document.getElementById("form").addEventListener("submit", function(e){
   document.getElementById("form").reset();
 });
 
-var d = new Date();
-document.getElementById("date").value = d.toDateString();
+// var d = new Date();
+// document.getElementById("date").value = d.toDateString();
 
-var hours = d.getHours();
-var mins = d.getMinutes();
-var seconds = d.getSeconds();
-document.getElementById("time").value = hours + ":" + mins + ":" + seconds;
+// var hours = d.getHours();
+// var mins = d.getMinutes();
+// var seconds = d.getSeconds();
+// document.getElementById("time").value = hours + ":" + mins + ":" + seconds;
+
+// select HTML elements in the document
+// weather api
+const currentTemp = document.querySelector('#current-temp');
+const weatherIcon = document.querySelector('#weather-icon');
+const captionDesc = document.querySelector('figcaption');
+
+const townName = "Guangzhou";
+const apiKey = "d3dbafb2f2288266046409ab37fc5787"
+const url = `//api.openweathermap.org/data/2.5/weather?q=${townName}&appid=${apiKey}&units=imperial`;
+
+fetch(url)
+  .then((response) => response.json())
+  .then((data) => console.log(data))
+
+async function apiFetch() {
+    try {
+      const response = await fetch(url);
+      if (response.ok) {
+        const data = await response.json();
+        console.log(data); // testing only
+        displayData(data); // uncomment when ready
+      } else {
+          throw Error(await response.text());
+      }
+    } catch (error) {
+        console.log(error);
+    }
+  }
+
+  function displayData(data) {
+    currentTemp.innerHTML = `${data.main.temp}&deg;F`;
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    let desc = data.weather[0].description;
+    weatherIcon.setAttribute('src',iconsrc );
+    weatherIcon.setAttribute('alt',desc );
+    captionDesc.textContent = `${desc}`;
+  }
+apiFetch();
+
+  //JSON dynamic links
+fetch("week05/data/activity.json")
+  .then((response) => response.json())
+  .then((data) => console.log(data))
+
+async function apiFetch() {
+    try {
+      const response = await fetch("week05/data/activity.json");
+      if (response.ok) {
+        const data = await response.json();
+        console.log(data); // testing only
+        displayData1(data); // uncomment when ready
+      } else {
+          throw Error(await response.text());
+      }
+    } catch (error) {
+        console.log(error);
+    }
+  }
+const activities = document.querySelector("#activities");
+  function displayData1(data) {
+    for(let i in data) {
+      var li = document.createElement("li");
+      // var span = document.createElement("span");
+      // span.innerHTML = data[i]+": ";
+      // li.appendChild(span);
+      for(let j in items){
+        if(j != 0){
+          var span2 = document.createElement("span");
+          span2.innerHTML = " | ";
+          li.appendChild(span2);
+        }
+          var a = document.createElement("a");
+          a.href = items[j];
+          a.innerHTML = items[j];
+          li.appendChild(a);
+          activities.appendChild(li);
+      }
+    }
+apiFetch(); 
+  
+ 

@@ -10,6 +10,7 @@
     <meta property="og:image" content="https://stock.adobe.com/th/search?k=hanoi&asset_id=234619748" />
     <meta property="og:url" content="https://thuylawrence.github.io/wdd230/">
     <meta name="description" content="WDD 230 - Thuy Duong Lawrence - Course Team Activity Portal">
+    <meta name="author" content="Thuy Duong Thi Lawrence">
     <title>WDD 230- Portal - Thuy Duong Lawrence</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -52,7 +53,8 @@
         <div class="grid-container">
         <section class="card1">
             <h3>Learning Activities </h3>
-            <ul style="list-style: none;">
+            <ul id="activities"></ul>
+             <!-- <ul style="list-style: none;">
                 <li> Week 01: <a href="week01/holygrail.html"> Grail</a> | <a href="week01/media-query.html"> Media
                         Query </a></li>
                 <li> Week 02: <a href="week02/design.html"> Web Design Principles</a> | <a
@@ -63,7 +65,7 @@
                 <li> Week 05: <a href="https://codepen.io/thuylawrence/pen/KKBBRaZ">Pseudo-elements</a>|<a href="week05/new-ward-member.json">JSON</a>| <a href="week05/prophets.html">The Fetch API </a>|<a href="week05/weather.html">Weather API</a></li>
                 <li> Week 06: </li>
                 <li> Week 07: </li>
-            </ul>
+            </ul> --> 
         </section>
         <section class="card2">
             <h3> Project </h3>
@@ -72,6 +74,11 @@
         </section>
         <section class="card3">
             <h3> Information </h3>
+            <p>The current temperature in Guangzhou, China is <span id="current-temp"></span></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
             <p> <span class="label"> Number of Visits: </span><span class="visits"></span></p>
             
         
