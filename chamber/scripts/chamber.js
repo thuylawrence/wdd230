@@ -129,7 +129,7 @@ fetch(url)
   .then((response) => response.json())
   .then((data) => console.log(data))
 
-async function apiFetch() {
+async function apiFetch1() {
     try {
       const response = await fetch(url);
       if (response.ok) {
@@ -152,7 +152,8 @@ async function apiFetch() {
     weatherIcon.setAttribute('alt',desc );
     captionDesc.textContent = `${desc}`;
   }
-apiFetch();
+  
+  apiFetch1();
 
   //JSON dynamic links
 fetch("week05/data/activity.json")
@@ -177,6 +178,7 @@ const activities = document.querySelector("#activities");
   function displayData1(data) {
     for(let i in data) {
       var li = document.createElement("li");
+      var items =data[i];
       // var span = document.createElement("span");
       // span.innerHTML = data[i]+": ";
       // li.appendChild(span);
@@ -191,8 +193,11 @@ const activities = document.querySelector("#activities");
           a.innerHTML = items[j];
           li.appendChild(a);
           activities.appendChild(li);
+    
       }
+     
     }
-apiFetch(); 
+  }
+  apiFetch();  
   
  
