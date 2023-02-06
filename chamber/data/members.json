@@ -8,7 +8,7 @@
             "addresses" : "10355 S Jordan Gateway #150, South Jordan, Utah 84095",
             "phoneNumber" : "+1 844-465-8243",
             "website" : "https://lucid.co/",
-            "image" : "images/Screenshot 2023-02-04 at 10.29.04.png",
+            "image" : "images/lucid.png",
             "membershipLevel" : "Individual, Team, or Enterprise"
         },
         {
@@ -24,7 +24,7 @@
             "addresses" : "10876 S River Front Pkwy Ste 100, South Jordan, UT 84095",
             "phoneNumber" : "+1 844-977-3338",
             "website" : "https://www.executech.com/",
-            "image" : "images/executech.png",
+            "image" : "images/execu.png",
             "membershipLevel" : "None"   
         },
         {
@@ -32,7 +32,7 @@
             "addresses" : "1510 N State St Suite 300, Orem, UT 84057",
             "phoneNumber" : "+1 801-701-3285",
             "website" : "https://www.directscale.com/",
-            "image" : "",
+            "image" : "images/direct.png",
             "membershipLevel" : "" 
         },
         {

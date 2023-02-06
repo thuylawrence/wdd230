@@ -242,10 +242,31 @@ form input.submitBtn {
     display: flex;
     flex-direction: column-reverse;
 }
-.companycards {
+.companycards.grid {
     text-align: center;
     font-size: 18px;
     padding: .5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: .5rem;
+}
+.companycards {
+    padding: .5rem;
+    margin: 0 auto;
     
-
+}
+.companycards.list{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+#menu2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.companycards.list section {
+    text-align: center;
 }
