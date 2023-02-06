@@ -8,7 +8,7 @@
             "addresses" : "10355 S Jordan Gateway #150, South Jordan, Utah 84095",
             "phoneNumber" : "+1 844-465-8243",
             "website" : "https://lucid.co/",
-            "image" : "chamber/images/Screenshot 2023-02-04 at 10.29.04.png",
+            "image" : "images/Screenshot 2023-02-04 at 10.29.04.png",
             "membershipLevel" : "Individual, Team, or Enterprise"
         },
         {
@@ -16,7 +16,7 @@
             "addresses" : "1111 Draper Pkwy #206, Draper, UT 84020",
             "phoneNumber" : "+1 801-895-2894",
             "website" : "https://www.zibtek.com/?utm_source=GMB&utm_medium=organic&utm_campaign=GMB",
-            "image" : "chamber/images/zibtek.png",
+            "image" : "images/zibtek.png",
             "membershipLevel" : "None" 
         },
         {
@@ -24,7 +24,7 @@
             "addresses" : "10876 S River Front Pkwy Ste 100, South Jordan, UT 84095",
             "phoneNumber" : "+1 844-977-3338",
             "website" : "https://www.executech.com/",
-            "image" : "chamber/images/executech.png",
+            "image" : "images/executech.png",
             "membershipLevel" : "None"   
         },
         {
@@ -40,7 +40,7 @@
             "addresses" : "12884 South Frontrunner Blvd Suite 140, Draper, UT 84020",
             "phoneNumber" : "+1 801-308-8750",
             "website" : "https://techliance.com/",
-            "image" : "chamber/images/techliance.png",
+            "image" : "images/techliance.png",
             "membershipLevel" : "None" 
         },
         {
@@ -48,7 +48,7 @@
             "addresses" : "2975 Executive Pkwy Suite 330, Lehi, UT 84043",
             "phoneNumber" : "+1 801-692-3252",
             "website" : "https://tech9.com/",
-            "image" : "chamber/images/tech9.png",
+            "image" : "images/tech9.png",
             "membershipLevel" : "None" 
         },
         {
@@ -56,7 +56,7 @@
             "addresses" : "1645 UT-193 #103, Layton, UT 84040",
             "phoneNumber" : "+1 801-528-1195",
             "website" : "https://www.gurutechnologies.net/",
-            "image" : "chamber/images/guru.png",
+            "image" : "images/guru.png",
             "membershipLevel" : "None" 
         }
     ]

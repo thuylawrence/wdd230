@@ -242,3 +242,10 @@ form input.submitBtn {
     display: flex;
     flex-direction: column-reverse;
 }
+.companycards {
+    text-align: center;
+    font-size: 18px;
+    padding: .5rem;
+    
+
+}
