@@ -77,6 +77,8 @@ footer {
     color:#2F188C;
     text-align: center;
     padding: .2em;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -155,7 +157,7 @@ form {
 	display: grid;
 	grid-gap: 0.35rem;
 	grid-template-columns: 1fr;
-	width: 425px;
+	width: 400px;
 	align-items: center;
 }
 input:focus,
