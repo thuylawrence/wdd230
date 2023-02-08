@@ -9,7 +9,7 @@
             "phoneNumber" : "+1 844-465-8243",
             "website" : "https://lucid.co/",
             "image" : "images/lucid.png",
-            "membershipLevel" : "Individual, Team, or Enterprise"
+            "membershipLevel" : "Silver Membership"
         },
         {
             "companyName" : "Zibtek Custome Software",
@@ -17,7 +17,7 @@
             "phoneNumber" : "+1 801-895-2894",
             "website" : "https://www.zibtek.com/?utm_source=GMB&utm_medium=organic&utm_campaign=GMB",
             "image" : "images/zibtek.png",
-            "membershipLevel" : "None" 
+            "membershipLevel" : "Bronze Membership" 
         },
         {
             "companyName" : "Executech-Managed IT Services Company Utah",
@@ -25,7 +25,7 @@
             "phoneNumber" : "+1 844-977-3338",
             "website" : "https://www.executech.com/",
             "image" : "images/execu.png",
-            "membershipLevel" : "None"   
+            "membershipLevel" : "Gold Membership"   
         },
         {
             "companyName" : "DirectScale-MLM Software Company",
@@ -33,7 +33,7 @@
             "phoneNumber" : "+1 801-701-3285",
             "website" : "https://www.directscale.com/",
             "image" : "images/direct.png",
-            "membershipLevel" : "" 
+            "membershipLevel" : "NP Membership" 
         },
         {
             "companyName" : "Techliance",
@@ -41,7 +41,7 @@
             "phoneNumber" : "+1 801-308-8750",
             "website" : "https://techliance.com/",
             "image" : "images/techliance.png",
-            "membershipLevel" : "None" 
+            "membershipLevel" : "Bronze Membership" 
         },
         {
             "companyName" : "Tech9",
@@ -49,7 +49,7 @@
             "phoneNumber" : "+1 801-692-3252",
             "website" : "https://tech9.com/",
             "image" : "images/tech9.png",
-            "membershipLevel" : "None" 
+            "membershipLevel" : "Silver Membership" 
         },
         {
             "companyName" : "Guru Technologies",
@@ -57,7 +57,7 @@
             "phoneNumber" : "+1 801-528-1195",
             "website" : "https://www.gurutechnologies.net/",
             "image" : "images/guru.png",
-            "membershipLevel" : "None" 
+            "membershipLevel" : "Gold Membership" 
         }
     ]
 }
