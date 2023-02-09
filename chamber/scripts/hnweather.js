@@ -21,7 +21,7 @@ async function apiFetch1() {
         const data = await response.json();
         console.log(data); // testing only
         displayData(data); // uncomment when ready
-        listthreedays(data);
+        listfivedays(data);
       } else {
           throw Error(await response.text());
       }
@@ -38,7 +38,7 @@ async function apiFetch1() {
     weatherIcon.setAttribute('alt',desc );
     captionDesc.textContent = `${desc}`;
   }
-  function listthreedays(data) {
+  function listfivedays(data) {
     const days =['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
     const filter = data.list.filter(item => item.dt_txt.includes('00:00:00'))
     console.log(filter)
