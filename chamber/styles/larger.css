@@ -5,6 +5,43 @@
         gap: 3rem;
         
     }
+    #mainnav {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        text-align: center;
+        margin-top: 5rem;
+    }
+    #hamIcon {
+        display: none;
+    }
+    .menu {
+        display: block;
+        list-style-type: none;
+        margin: 10px;
+        padding: 0;
+        z-index: 10;
+        overflow: hidden;
+        position: absolute;
+        
+    }
+     .menu li a {
+        display: flex;
+        text-decoration: none;
+        text-align: center;
+        width: 12rem;
+        padding: 1rem;
+        margin: 0 auto;
+        flex-direction: row;
+        justify-items: right;
+    }
+    /* li a.menu-item {
+        display: none;
+    } */
+    li a.open {
+        display: flex;
+    } */
+
     main {
         /* max-width: 600px; */
         display: flex;

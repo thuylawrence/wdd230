@@ -1,20 +1,22 @@
-
+const abanner = document.querySelector(".mybanner");
 var d = new Date();
 var n = d.getDay();
-if(n == 1 || n == 2 || n == 6){
+if(n == 1 || n == 2 || n == 3){
     mybanner();
     console.log(mybanner);
 }
-var running = false;
+
+var running = true;
 function mybanner(){
     var banner = document.createElement("div");
+
     banner.setAttribute("class", "meeting-banner");
-    banner.innerHTML = "JOIN A MEETING TODAY";
+    banner.innerHTML = "MEET AND GREET ON WEDNESDAY AT 7:00 PM";
     banner.id = "meeting-banner";
     banner.addEventListener("click", function(){
         removeBanner();
     });
-    document.body.appendChild(banner);
+    abanner.appendChild(banner);
 
     setTimeout(function(){
         removeBanner();

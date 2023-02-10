@@ -23,12 +23,13 @@
     <header>
         <img class="profile" src="../images/profile.jpg" alt="Photo">
         <h1> Thuy Duong Thi Lawrence </h1>
-        <button>=</button>
-        <nav class="open">
-            <ul>
-                <li class="nav-item"><a href="https://www.byui.edu/" target="_BLANK"> BYU-Idaho </a></li>
-                <li class="nav-item"><a href="https://www.linkedin.com/in/thuy-duong-lawrence-66b81a256/" target="_BLANK"> LinkedIn </a></li>
-                
+        
+        <nav>
+            <ul class="menu" id="mainnav">
+                <li><a href="https://www.byui.edu/" class="menu-item" target="_BLANK"> BYU-Idaho </a></li>
+                <li><a href="https://www.linkedin.com/in/thuy-duong-lawrence-66b81a256/" class="menu-item" target="_BLANK"> LinkedIn </a></li>
+                <li id="hamIcon"> 
+                    <a href="#">&#9776;</a></li>
             </ul>
     
         </nav> 
@@ -80,6 +81,7 @@
         <p id="lastModified"></p>
     </footer>
     <script src="../scripts/getDates.js"></script>
+    <script src="scripts/hamicon.js"></script>
     
     
 </body>

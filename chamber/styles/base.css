@@ -14,18 +14,35 @@ nav {
     gap: 1rem;
     font-size: 18px;
 }
-.mainnav {
+/* #mainnav {
     display: flex;
     flex-direction: row;
     gap: 8px;
-    text-align: center;
+    text-align: center; */
+    
+/* } */
+.menu {
+    /* position: fixed; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+    overflow: hidden;
     
 }
-.menu {
-    list-style-type: none;
-    
-    padding: 1rem;
-    
+.menu li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 12rem;
+    position: relative;
+}
+li a.menu-item {
+    display: none;
+}
+li a.open {
+    display: flex;
+    flex-direction: column;
 }
 
 .content menu{
@@ -81,7 +98,7 @@ main section {
     padding: .5rem;
     text-align: center;
 }
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); */
 
 .heroimage, .herolabel {
     max-width: 670px;
@@ -115,7 +132,7 @@ rgba(0,0,0,.75);
     padding: .25rem;
     font-weight: 700;
     font-size: 2rem;
-    font-family: "Great Vibes",
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
 }
 
 ul #activities {
@@ -127,6 +144,13 @@ ul #activities {
 .join {
     font-size: 18px;
 }
-main {
+/* main {
     border-color: black solid;
+} */
+main .banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }

@@ -1,6 +1,7 @@
-const menubutton = document.querySelector('.menu');
- const mynav = document.querySelector('nav');
+const menubutton = document.querySelector('#hamIcon');
+const menuitems = document.querySelectorAll(".menu-item");
  
  menubutton.addEventListener('click', () => {
-	mynav.classList.toggle('open')
- })
+	menuitems.forEach((item) => item.classList.toggle("open"));
+    menubutton.classList.toggle("close");
+ });
