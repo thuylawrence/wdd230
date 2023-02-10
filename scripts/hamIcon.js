@@ -1,15 +1,11 @@
-document.getElementById("copyright").innerHTML = paragraph
-
-var date = document.lastModified;
-
-document.getElementById("lastModified").innerHTML = "Last Modification: " + date;
-
- const menubutton = document.querySelector('header button');
- const mynav = document.querySelector('nav');
+const menubutton = document.querySelector('#hamIcon');
+const menuitems = document.querySelectorAll(".menu-item");
  
  menubutton.addEventListener('click', () => {
-	mynav.classList.toggle('open')
- })
+	menuitems.forEach((item) => item.classList.toggle("open"));
+    menubutton.classList.toggle("close");
+ });
+
 
 
 
