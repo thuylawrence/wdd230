@@ -6,13 +6,26 @@
         
     }
     main {
-        max-width: 640px;
-        display: grid;
-        margin: auto;
+        /* max-width: 600px; */
+        display: flex;
+        padding: 1rem;
+        margin:auto;
+        flex-direction: column;
+        
+        
     }
     footer {
         flex-direction: row;
         gap: 1rem;
     }
-  
+    .main-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 10px auto;
+        position: relative;
+        /* border: 1px solid; */
+        grid-gap: .5rem;
+        
+    }
 }

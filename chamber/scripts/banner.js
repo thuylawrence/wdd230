@@ -1,11 +1,12 @@
 
 var d = new Date();
 var n = d.getDay();
-if(n == 1 || n == 2 || n == 3){
-    bannerthing();
+if(n == 1 || n == 2 || n == 5){
+    mybanner();
+    console.log(mybanner);
 }
 var running = false;
-function bannerthing(){
+function mybanner(){
     var banner = document.createElement("div");
     banner.setAttribute("class", "meeting-banner");
     banner.innerHTML = "JOIN A MEETING TODAY";

@@ -1,32 +1,37 @@
-// let url = 'https://raw.githubusercontent.com/thuylawrence/wdd230/main/chamber/data/members.json';
+let datafile = 'data/members.json';
 // const cards1 = document.querySelector('.companycards');
 
 async function getcompanyData() {
-    const response = await fetch(url);
+    const response = await fetch(datafile);
     const data = await response.json();
     console.table(data.companies);
-   displayacompanies(data.companies);
+    pickdata(data.companies);
 }
 getcompanyData();
 
 
-function pickdata () {
+function pickdata (companies) {
     var length = companies.length;
     var final = [];
     while (final.length <3) {
-      var random = math.floor(math.random() * length) +1;
-      if ((companies[random].membershipLevel == "Gold" || companies[random].membershipLevel == "Silver") && final.indexOf(companies[random]) == -1) {
+      var random = Math.floor(Math.random() * length);
+      if ((companies[random].membershipLevel == "Gold Membership" || companies[random].membershipLevel == "Silver Membership") && final.indexOf(companies[random]) == -1) {
           final.push(companies[random]);
       }
     }
     chooseCompanies(final);
   }
-  function chooseCompanies(items) {
-    console.log(items)
+function chooseCompanies(items) {
+     console.log(items)
+     let i = 0;
+     const p = document.querySelectorAll(".p");
+     const t = document.querySelectorAll(".t");
+     const d = document.querySelectorAll(".d");
+    
     items.forEach(item => {
-        document.getElementById("p" + i).src = item.icon;
-        document.getElementById("t" + i).innerHTML = item.name;
-        document.getElementById("d" + i).innerHTML = item.description;
+        p[i].setAttribute('src', item.image);
+        t[i].innerHTML = item.companyName;
+        d[i].innerHTML = item.addresses;
         i++;
     });
   }
