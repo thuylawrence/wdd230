@@ -10,14 +10,21 @@ nav {
     /* position: absolute; */
     top: 60px;
     right: 0px;
-    display: none;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    /* display: none; */
     /* color:black;
     text-decoration: none;
     background-color: darkkhaki;
     padding: .8em; */
 }
+/* nav.close {
+    display: none;
+} */
+
 .menu li a {
-    display: flex;
+    /* display: block; */
     text-decoration: none;
     text-align: center;
     /* width: 12rem; */
@@ -43,7 +50,7 @@ header {
     max-width: 100%;
     background-color:#83D1D8 ;
     border: dashed 1px pink;
-    display: grid;
+    display: flex;
     grid-template-columns: 150px auto 48px;
     /* justify-items: center;
     color:#2F188C;
@@ -61,6 +68,9 @@ h1 {
     justify-content: center;
     font-size: 25px;
     margin-top: 60px;
+    display: flex;
+    justify-items: center;
+    margin: 0 auto;
 }
  
 

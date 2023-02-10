@@ -18,11 +18,13 @@
         gap: 3rem;
         
     }
-    
+    #hamIcon {
+        display: none;
+    }
     
     
     main {
-        max-width: 1000px;
+        /* max-width: 1000px; */
         /* display: grid;
         margin: auto;
         grid-template-rows: 150px 1fr 1fr;
