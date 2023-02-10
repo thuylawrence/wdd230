@@ -1,7 +1,7 @@
 
 var d = new Date();
 var n = d.getDay();
-if(n == 1 || n == 2 || n == 5){
+if(n == 1 || n == 2 || n == 6){
     mybanner();
     console.log(mybanner);
 }
