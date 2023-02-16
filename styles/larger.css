@@ -13,7 +13,7 @@
     }
     nav ul {
         display: flex;
-        
+        color: black;
         justify-content: flex-end;
         gap: 3rem;
         

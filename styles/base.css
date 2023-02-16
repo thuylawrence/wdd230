@@ -222,7 +222,7 @@ form fieldset {
     grid-template-columns: 1fr;
 }
 form legend {
-    color: #445ba9;
+    color: black;;
     margin: 0 1rem;
     padding: 0 .5rem;
     gap: .5rem;
