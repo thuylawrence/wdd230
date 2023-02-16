@@ -8,7 +8,7 @@
 }
 header {
     max-width: 100%;
-    background-color:#83D1D8 ;
+    background-color:#00AFB9 ;
     border: dashed 1px pink;
     display: flex;
     grid-template-columns: 150px auto 48px;
@@ -47,9 +47,10 @@ nav {
 li a.menu-item {
     display: none;
 }
-li a.open {
+li a.menu-item.open {
     display: flex;
     flex-direction: column;
+    gap: 2rem;
 }
 
 .content menu{
@@ -71,7 +72,7 @@ li a.open {
 } 
 #hero-msg {
     text-align: center;
-    color: blue;
+    color:#0081A7;
 }
 
 
@@ -87,7 +88,7 @@ li a.open {
 
 footer {
     max-width: 100%;
-    background-color:darkkhaki;
+    background-color:#FED9B7;
     justify-items: center;
     color:#2F188C;
     text-align: center;
