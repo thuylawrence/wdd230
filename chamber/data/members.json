@@ -8,7 +8,7 @@
             "addresses" : "10355 S Jordan Gateway #150, South Jordan, Utah 84095",
             "phoneNumber" : "+1 844-465-8243",
             "website" : "https://lucid.co/",
-            "image" : "images/lucid.png",
+            "image" : "images/lucid.webp",
             "membershipLevel" : "Silver Membership"
         },
         {
@@ -16,7 +16,7 @@
             "addresses" : "1111 Draper Pkwy #206, Draper, UT 84020",
             "phoneNumber" : "+1 801-895-2894",
             "website" : "https://www.zibtek.com/?utm_source=GMB&utm_medium=organic&utm_campaign=GMB",
-            "image" : "images/zibtek.png",
+            "image" : "images/zibtek.webp",
             "membershipLevel" : "Bronze Membership" 
         },
         {
@@ -24,7 +24,7 @@
             "addresses" : "10876 S River Front Pkwy Ste 100, South Jordan, UT 84095",
             "phoneNumber" : "+1 844-977-3338",
             "website" : "https://www.executech.com/",
-            "image" : "images/execu.png",
+            "image" : "images/execu.webp",
             "membershipLevel" : "Gold Membership"   
         },
         {
@@ -32,7 +32,7 @@
             "addresses" : "1510 N State St Suite 300, Orem, UT 84057",
             "phoneNumber" : "+1 801-701-3285",
             "website" : "https://www.directscale.com/",
-            "image" : "images/direct.png",
+            "image" : "images/direct.webp",
             "membershipLevel" : "NP Membership" 
         },
         {
@@ -40,7 +40,7 @@
             "addresses" : "12884 South Frontrunner Blvd Suite 140, Draper, UT 84020",
             "phoneNumber" : "+1 801-308-8750",
             "website" : "https://techliance.com/",
-            "image" : "images/techliance.png",
+            "image" : "images/techliance.webp",
             "membershipLevel" : "Bronze Membership" 
         },
         {
@@ -48,7 +48,7 @@
             "addresses" : "2975 Executive Pkwy Suite 330, Lehi, UT 84043",
             "phoneNumber" : "+1 801-692-3252",
             "website" : "https://tech9.com/",
-            "image" : "images/tech9.png",
+            "image" : "images/tech9.webp",
             "membershipLevel" : "Silver Membership" 
         },
         {
@@ -56,7 +56,7 @@
             "addresses" : "1645 UT-193 #103, Layton, UT 84040",
             "phoneNumber" : "+1 801-528-1195",
             "website" : "https://www.gurutechnologies.net/",
-            "image" : "images/guru.png",
+            "image" : "images/guru.webp",
             "membershipLevel" : "Gold Membership" 
         }
     ]
