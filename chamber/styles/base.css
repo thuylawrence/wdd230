@@ -50,9 +50,14 @@ li a.menu-item {
 li a.menu-item.open {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+   
+    color: black;
+    padding: .5rem;
+    
 }
-
+#hamIcon {
+    color: black;
+}
 .content menu{
     
     justify-content: right;
@@ -72,7 +77,7 @@ li a.menu-item.open {
 } 
 #hero-msg {
     text-align: center;
-    color:#0081A7;
+    color: black;
 }
 
 
@@ -161,6 +166,7 @@ ul #activities {
 }
 .join {
     font-size: 18px;
+    color: black;
 }
 /* main {
     border-color: black solid;

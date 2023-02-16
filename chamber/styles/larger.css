@@ -11,6 +11,7 @@
         gap: 8px;
         text-align: center;
         margin-top: 5rem;
+        
     }
     #hamIcon {
         display: none;
@@ -34,12 +35,15 @@
         margin: 0 auto;
         flex-direction: row;
         justify-items: right;
+        
     }
     /* li a.menu-item {
         display: none;
     } */
-    li a.open {
+    li a.menu-item {
         display: flex;
+        color: black;
+        
     } 
 
     main {
@@ -48,9 +52,11 @@
         padding: 1rem;
         margin:auto;
         flex-direction: column;
-        
-        
-    }
+    }   
+    .join {
+        color: black;
+    }   
+    
     footer {
         flex-direction: row;
         gap: 1rem;
