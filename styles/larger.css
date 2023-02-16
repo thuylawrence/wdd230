@@ -23,6 +23,8 @@
     }
     li a.menu-item {
         display: block;
+        color: black;
+        justify-content: right;
     }
     
     /* main { */
