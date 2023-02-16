@@ -22,11 +22,13 @@
     <header>
         <img class="profile" src="../images/profile.jpg" alt="Photo">
         <h1> Thuy Duong Thi Lawrence </h1>
-        <button>=</button>
-        <nav class="open">
-            <ul>
-                <li class="nav-item"><a href="https://www.byui.edu/" target="_BLANK"> BYU-Idaho </a></li>
-                <li class="nav-item"><a href="https://www.linkedin.com/in/thuy-duong-lawrence-66b81a256/" target="_BLANK"> LinkedIn </a></li>
+        
+        <nav>
+            <ul class="menu" id="mainnav">
+                <li id="hamIcon"> 
+                    <a href="#">&#9776;</a></li>
+                <li><a href="https://www.byui.edu/" class="menu-item" target="_BLANK"> BYU-Idaho </a></li>
+                <li><a href="https://www.linkedin.com/in/thuy-duong-lawrence-66b81a256/" class="menu-item" target="_BLANK"> LinkedIn </a></li>
                 
                 </li>
     
@@ -35,13 +37,15 @@
         </nav> 
     </header>
     <main>
-       <div class="grid-container2">
         <div class="sidebar">
             <p>Since 1954 Hanoi has been transformed from a primarily commercial city into an industrial and agricultural centre. Manufactures include machine tools, electric generators and motors, plywood, textiles, chemicals, and matches. Rice, fruits and vegetables, cereals, and industrial crops are grown in the surrounding area.
-
             </p>
+            <p class="info2">Hanoi, also spelled Ha Noi, city, capital of Vietnam. The city is situated in northern Vietnam on the western bank of the Red River, about 85 miles (140 km) inland from the South China Sea. In addition to being the national capital, Hanoi is also a province-level municipality (thanh pho), administered by the central government. Area mun., 1,205 square miles (3,120 square km). Pop. (1999) city, 1,523,936; mun., 5,053,654; (2009) city, 2,316,722; mun., 6,451,909; (2014 est.) city, 3,292,000.</p>
+            <p class="info1">Hanoi, the capital of Vietnam, is known for its centuries-old architecture and a rich culture with Southeast Asian, Chinese and French influences. At its heart is the chaotic Old Quarter, where the narrow streets are roughly arranged by trade. There are many little temples, including Bach Ma, honoring a legendary horse, plus Đồng Xuân Market, selling household goods and street food.</p>
             <p> <span class="label"> Number of Visits: </span><span class="visits"></span></p>
         </div>
+       <div class="grid-container2">
+        
             <div class="photo1">
                 <picture>
                     <source srcset="images/david-emrich-g2ejBYKMWxM-unsplash.webp"> 
@@ -49,15 +53,31 @@
                     <img src="images/david-emrich-g2ejBYKMWxM-unsplash.webp" alt="image1" loading="lazy" >
                     
                 </picture> 
-                <p class="info1">Hanoi, the capital of Vietnam, is known for its centuries-old architecture and a rich culture with Southeast Asian, Chinese and French influences. At its heart is the chaotic Old Quarter, where the narrow streets are roughly arranged by trade. There are many little temples, including Bach Ma, honoring a legendary horse, plus Đồng Xuân Market, selling household goods and street food.</p>
+                <picture>
+                    <source srcset="images/long-bun-vP-N4_E9GcE-unsplash.webp">
+                    <img src="images/long-bun-vP-N4_E9GcE-unsplash.webp" alt="image5" loading="lazy">
+                </picture>
+                <picture>
+                    <source srcset="images/silver-ringvee-niFWqrLdjlE-unsplash.webp">
+                    <img src="images/silver-ringvee-niFWqrLdjlE-unsplash.webp" alt="image6" loading="lazy">
+                </picture>
+                
+                
             </div>
             <div class="photo2">
                 <picture>
                     <source srcset="images/frida-aguilar-estrada-PEgu_IdF1BM-unsplash copy.webp" > 
                     <img src="images/frida-aguilar-estrada-PEgu_IdF1BM-unsplash copy.webp" alt="image2" loading="lazy" width="1000" height="400">
                 </picture>
+                <picture>
+                    <source srcset="images/hai-tran-tt_HFMMae1w-unsplash.webp">
+                    <img src="images/hai-tran-tt_HFMMae1w-unsplash.webp" alt="image3" loading="lazy">
+                </picture>
+                <picture>
+                    <source srcset="images/eirik-skarstein-TeeSdbW058I-unsplash.webp">
+                    <img src="images/eirik-skarstein-TeeSdbW058I-unsplash.webp" alt="image4" loading="lazy">
+                </picture>
                 
-                <p class="info2">Hanoi, also spelled Ha Noi, city, capital of Vietnam. The city is situated in northern Vietnam on the western bank of the Red River, about 85 miles (140 km) inland from the South China Sea. In addition to being the national capital, Hanoi is also a province-level municipality (thanh pho), administered by the central government. Area mun., 1,205 square miles (3,120 square km). Pop. (1999) city, 1,523,936; mun., 5,053,654; (2009) city, 2,316,722; mun., 6,451,909; (2014 est.) city, 3,292,000.</p>
                 
             </div>
            
@@ -75,7 +95,7 @@
     </footer>
     <script src="../scripts/getDates.js"> </script>
     <script src="../scripts/hamIcon.js"> </script>
-    <script src="../chamber/scripts/chamber.js"></script>
+    <script src="../chamber/scripts/numbervisit.js"></script>
 
 </body>
 

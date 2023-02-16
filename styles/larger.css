@@ -21,16 +21,18 @@
     #hamIcon {
         display: none;
     }
+    li a.menu-item {
+        display: block;
+    }
     
-    
-    main {
+    /* main { */
         /* max-width: 1000px; */
         /* display: grid;
         margin: auto;
         grid-template-rows: 150px 1fr 1fr;
         grid-template-columns: 1fr 200px;
         border: 15px black; */
-    }
+    /* } */
     /* .card1 {
         grid-column: 1/2;
         grid-row: 2/4;
@@ -60,12 +62,24 @@
     }
     .grid-container2 {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     
     }
     .form1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
+    .companycards.grid {
+        text-align: center;
+        font-size: 18px;
+        padding: .5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: .5rem;
+        width: 100%;
+        justify-content: center;
+    }
+    .w3-sidebar w3-bar-block {
+        margin-left: 25%;
+    }
 }

@@ -9,14 +9,14 @@ const url = `//api.openweathermap.org/data/2.5/weather?q=${townName}&appid=${api
 
 fetch(url)
   .then((response) => response.json())
-  .then((data) => console.log(data))
+  // .then((data) => console.log(data))
 
 async function apiFetch() {
     try {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // testing only
+        // console.log(data); // testing only
         displayData(data); // uncomment when ready
       } else {
           throw Error(await response.text());

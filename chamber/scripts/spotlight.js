@@ -4,7 +4,7 @@ let datafile = 'data/members.json';
 async function getcompanyData() {
     const response = await fetch(datafile);
     const data = await response.json();
-    console.table(data.companies);
+    // console.table(data.companies);
     pickdata(data.companies);
 }
 getcompanyData();
@@ -22,7 +22,7 @@ function pickdata (companies) {
     chooseCompanies(final);
   }
 function chooseCompanies(items) {
-     console.log(items)
+     
      let i = 0;
      const p = document.querySelectorAll(".p");
      const t = document.querySelectorAll(".t");
